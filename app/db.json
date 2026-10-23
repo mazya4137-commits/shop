@@ -1,0 +1,67 @@
+{
+  "seq": 12,
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@shop.local",
+      "role": "admin",
+      "salt": "fee64cbc4196504fac0ead52704811de",
+      "hash": "cc228470cd257ef4fe923bbc1981550085a15a2bcd6f1b96cc0cef1c3388fbd4455a72339541aa9e1c6ae26ab983aafb4c3ac7cad8bab038416b547aba7bb7f5"
+    },
+    {
+      "id": 10,
+      "name": "Mazya",
+      "email": "mazya413@gmail.com",
+      "role": "user",
+      "salt": "b8902149671061aea9c523b8cd68b35a",
+      "hash": "270ac95b21e588721832a85e542c283bed83b65e11c02f4e61565ef031ec650d2960a1a878452322fbde0fabf88ef3cdd3841250f4a3d81e14138057f3e7b028"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "BRUTAL HOODIE",
+      "price": 89,
+      "desc": "Тяжёлый хлопок, жёсткий крой.",
+      "stock": 20
+    },
+    {
+      "id": 2,
+      "name": "GLASS LAMP",
+      "price": 140,
+      "desc": "Матовое стекло, холодный свет.",
+      "stock": 8
+    },
+    {
+      "id": 3,
+      "name": "CONCRETE MUG",
+      "price": 25,
+      "desc": "Кружка из бетона. Да, серьёзно.",
+      "stock": 50
+    },
+    {
+      "id": 4,
+      "name": "LIQUID POSTER",
+      "price": 35,
+      "desc": "Принт A2, плотная бумага.",
+      "stock": 29
+    }
+  ],
+  "orders": [
+    {
+      "id": 11,
+      "userId": 10,
+      "items": [
+        {
+          "id": 4,
+          "name": "LIQUID POSTER",
+          "qty": 1,
+          "price": 35
+        }
+      ],
+      "total": 35,
+      "date": "2026-10-23T03:54:35.028Z"
+    }
+  ]
+}
